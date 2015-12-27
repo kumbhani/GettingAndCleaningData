@@ -14,20 +14,16 @@ The output of run_analysis.R will generate a tidy summary data set called "UCI_H
 Descriptions of Columns (Variables)
 =========
 
-1. activity_name - The type of activity performed (e.g. "LAYING","SITTING", etc...)
-2. subject_id - The id number of the subject performing the activity
-
-The units for the following columns are the same as the initial data set; unfortunately the original data set did not state the actual unit.
-The syntax for the columns are as follows:
+The first two columns are the activity names and subject ids.
+The units for columns 3-68 are the same as the initial data set; unfortunately the original data set did not state the actual unit.
+The syntax for columns 3-68 are as follows:
 * Columns are prefixed with (t or f) for (time or frequency) domain data
 * Please see features_info.txt within the dataset directory for a full description of the column types
 * X,Y,Z, refer to the three orthogonal axes of the accelerometer / gyroscope.
 * Suffixes of mean or std refer to mean or standard deviation data, respectively.
 
-For each activity_name and each subject_id, the mean value for each of these columns was computed.
-
-The column names are:
-
+1. activity_name - The type of activity performed (e.g. "LAYING","SITTING", etc...)
+2. subject_id - The id number of the subject performing the activity
 3. tBodyAcc_X_mean
 4. tBodyAcc_Y_mean
 5. tBodyAcc_Z_mean
