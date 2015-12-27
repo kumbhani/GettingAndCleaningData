@@ -14,14 +14,17 @@ I will create one R script called run_analysis.R that does the following.
 
 Required R packages:
 ==============
-	data.table (the script will attempt to install this package if it's not already installed; requires internet access).
+* data.table
+
+(the script will attempt to install this package if it's not already installed; requires internet access).
 
 Input Data:
 ==============
 
-* All data for this project come from the accelerometers of Samsung Galaxy S smartphones. A full description is available at the UCI [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+All data for this project come from the accelerometers of Samsung Galaxy S smartphones. A full description is available at the UCI [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 ).
-* Data can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+Data can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 General Instructions to run script
 ==============
