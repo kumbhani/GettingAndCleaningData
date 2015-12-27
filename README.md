@@ -37,4 +37,5 @@ Running the run_analysis.R script, will do the following:
 4. It will then load the training and testing datasets, subseting the data only pertaining to mean and std values, and then summarize the average results by subject and activity type
 5. The result will be saved in a file called "UCI_HAR_summary.txt". See CodeBook.md for a full description of the tidy data set.
 
-- Romesh Kumbhani
+=============
+(c)2015 Romesh Kumbhani
