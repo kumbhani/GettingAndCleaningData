@@ -53,7 +53,7 @@ subData          <- cbind(tmp[,names(tmp)[2:3],with=FALSE],subData)
 names(subData)   <- gsub("-(mean|std)\\(\\)-([XYZ])","_\\2_\\1",names(subData))
 names(subData)   <- gsub("-(mean|std)\\(\\)","_\\1",names(subData))
 
-# create a summary data set ordered by two factors (activity_name & subject_id), then apply the mean function on the remaining variables
+# create a summary data set ordered by two factors (activity_name & subject_id), then applies the mean function on the remaining variables
 summaryData    <- dcast(melt(subData,id.vars = c("activity_name","subject_id")),activity_name+subject_id ~ variable,mean)
 
 #set summaryData to be ordered by activity name, then subject id

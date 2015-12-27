@@ -2,7 +2,37 @@
 
 Original Data:
 ==========
+The original data can be obtained from the following URL:
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
+An extend description of the data is available from the source:
+[University of California - Irvine, Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+run_analysis.R:
+===============
+
+This script performs the following transformations on the original data set:
+
+1. Loads the data.table package (downloads if necessary)
+2. Downloads and uncompresses the raw data
+3. Reads in following data files and stores them as data tables.
+	1. feature.txt - containing labels for the raw data column names
+	2. activity_labels.txt - containing ids and labels for the different activity types
+	3. train/X_train.txt - containing the full training data 
+	4. train/y_train.txt - containing the proper activity id for each row in X_train.txt
+	5. train/subject_train.txt - containing the subject id for each row in X_train.txt
+	6. test/X_test.txt - containing the full testing data 
+	7. test/y_test.txt - containing the proper activity id for each row in X_test.txt
+	8. test/subject_test.txt - containing the subject id for each row in X_test.txt
+4. Merges the training and testing data into an overall data set.
+5. Subsets the overall dataset, selecting only columns pertaining to mean and std data
+6. Prepends two columns to the subsetted data:
+	1. Activity name (derived from joining the entries from y_*.txt and the labels from activity_labels.txt)
+	2. Subject ID (from subject_*.txt)
+7. Changes some of the column names to make them easier to read (removes extra parentheses, puts the function name at the end))
+8. Creates a summary data set ordered by two factors (activity_name & subject_id), then applies the mean function on the remaining variables
+9. Sets the summary data to be ordered by activity name, then subject id
+10. Writes out tidy summary data set ("UCI_HAR_summary.txt") as per course instructions.
 
 Output file:
 ===========
