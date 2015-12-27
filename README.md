@@ -1,4 +1,4 @@
-Getting And Cleaning Data
+Getting And Cleaning Data Course Project
 ==============
 This is the repo for the course project for the Coursera class: Getting and Cleaning Data
 
@@ -18,7 +18,7 @@ Required R packages:
 
 (the script will attempt to install this package if it's not already installed; requires internet access).
 
-Input Data:
+Input data:
 ==============
 
 All data for this project come from the accelerometers of Samsung Galaxy S smartphones. A full description is available at the UCI [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -26,7 +26,7 @@ All data for this project come from the accelerometers of Samsung Galaxy S smart
 
 Data can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-General Instructions to run script
+General instructions to run script
 ==============
 
 Running the run_analysis.R script, will do the following:
@@ -36,3 +36,5 @@ Running the run_analysis.R script, will do the following:
 3. If it's not available, it will attempt download and unzip the data into a directory called "UCI HAR Dataset"
 4. It will then load the training and testing datasets, subseting the data only pertaining to mean and std values, and then summarize the average results by subject and activity type
 5. The result will be saved in a file called "UCI_HAR_summary.txt". See CodeBook.md for a full description of the tidy data set.
+
+- Romesh Kumbhani
