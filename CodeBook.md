@@ -17,10 +17,11 @@ Descriptions of Columns (Variables)
 The first two columns are the activity names and subject ids.
 The units for columns 3-68 are the same as the initial data set; unfortunately the original data set did not state the actual unit.
 The syntax for columns 3-68 are as follows:
-* Columns are prefixed with (t or f) for (time or frequency) domain data
-* Please see features_info.txt within the dataset directory for a full description of the column types
-* X,Y,Z, refer to the three orthogonal axes of the accelerometer / gyroscope
-* Suffixes of mean or std refer to mean or standard deviation data, respectively
+- Columns are prefixed with (t or f) for (time or frequency) domain data
+- Please see features_info.txt within the dataset directory for a full description of the column types
+- X,Y,Z, refer to the three orthogonal axes of the accelerometer / gyroscope
+- Suffixes of mean or std refer to mean or standard deviation data, respectively
+
 
 1. activity_name - The type of activity performed (e.g. "LAYING","SITTING", etc...)
 2. subject_id - The id number of the subject performing the activity
