@@ -5,7 +5,7 @@ Original Data:
 The original data can be obtained from the following URL:
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-An extend description of the data is available from the source:
+An extended description of the data is available from the source:
 [University of California - Irvine, Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 run_analysis.R:
