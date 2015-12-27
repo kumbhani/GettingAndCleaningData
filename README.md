@@ -1,8 +1,8 @@
-# Getting And Cleaning Data
+Getting And Cleaning Data
 ==============
 This is the repo for the course project for the Coursera class: Getting and Cleaning Data
 
-# Purpose:
+Purpose:
 ==============
 I will create one R script called run_analysis.R that does the following. 
 
@@ -12,17 +12,17 @@ I will create one R script called run_analysis.R that does the following.
 4. Appropriately label the data set with descriptive variable names. 
 5. Create a second, independent tidy data set with the average of each variable for each activity type and each subject.
 
-# Required R packages:
+Required R packages:
 ==============
 * data.table (the script will attempt to install this package if it's not already installed; requires internet access).
 
-# Input Data:
+Input Data:
 ==============
 
 * All data for this project come from the accelerometers of Samsung Galaxy S smartphones. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 * Data can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-# General Instructions to run script
+General Instructions to run script
 ==============
 
 Running the run_analysis.R script, will do the following:
