@@ -29,6 +29,6 @@ Running the run_analysis.R script, will do the following:
 
 1. Load the data.table package. If it's not installed, it will attempt to download it.
 2. It will look in the current directory to see if the UCI HAR dataset is available (folder named "UCI HAR dataset").
-2a. If it's not available, it will attempt download and unzip the data into a directory called "UCI HAR Dataset"
+3. If it's not available, it will attempt download and unzip the data into a directory called "UCI HAR Dataset"
 4. It will then load the training and testing datasets, subseting the data only pertaining to mean and std values, and then summarize the average results by subject and activity type
 5. The result will be saved in a file called "UCI_HAR_summary.txt". See CodeBook.md for a full description of the tidy data set.
